@@ -13,6 +13,7 @@
 ###### Observações
 - Observação geral: Este é um arquivo de Markdown, pode ser melhor visualizado em navegadores web. Recomenda-se [Mozilla Firefox][firefox] ou [Google Chrome][chrome]. Também pode ser usado o site do [Dillinger] para visualizar o Markdown deste projeto (Para visualização no Dillinger é necessário ter o RAW do texto em Markdown para que ele apresente a prévia/exibição).
 - Demais observações: Este trata-se de um projeto da matéria de Estruturas de Dados e Algoritmos (EDA), ministrado na Universidade de Brasília (UnB - FGA) Campus Gama, onde foi implementado uma solução em software para um problema proposto que pode ser encontrado nos arquivos _source_ na pasta do projeto `(doc/EDA_TSA_FINAL.pdf)`, demais explicações sobre implementação e execução serão posteriomente apresentados neste mesmo documento.
+
 ***
 ## Como executar o Sistema:
 Para executar o sistema é simples, mas antes atente-se a alguns pré-requisitos para rodar na sua máquina:
