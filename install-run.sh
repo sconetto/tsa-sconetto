@@ -16,7 +16,7 @@ sleep 3
 clear
 currentUser=$(whoami)
 echo "Por favor conceda as permissões para execução do programa"
-sudo chown root:$currentUser ./bin/cfo-exe
+sudo chown -R root:$currentUser ./bin/cfo-exe
 sudo chmod +x ./bin/cfo-exe
 clear
 echo "Executando arquivo compilado"
