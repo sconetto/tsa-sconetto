@@ -46,34 +46,15 @@ Não me responsabilizo caso o código não rode em outros sistemas diferentes ao
 ***
 ## Relatório da complexidade do cógido:
 1. Importação do arquivo dadoscfo.csv:
-> A importação de dados do arquivo `dadoscfo.csv` se dá pela execução de dois laços `while`,
-> para a criação já ordenada da árvore binária, onde o primeiro laço percorre todo o arquivo lendo a linha com os dados
-> e o segundo laço faz a separação das palavras da linha de dados, após executada esta ação é por fim feita a inserção
-> dos dados em folhas de uma ABP (Árvore Binária de Pesquisa) tendo esta a complexidade O(N³) onde N é o número
-> de folhas a serem inseridas e complexidade N³ dado o fato de ter que se verificar se a raíz é nula, verificar se a inserção
-> vai ser feita a esquerda ou a direita (balanceamento da árvore) e por fim se será inserido na folha atual
-> ou na folha anterior, justificando a alta complexidade com a presença de estruturas de controle `if-else`.
+> A importação de dados do arquivo `dadoscfo.csv` se dá pela execução de dois laços `while`, para a criação já ordenada da árvore binária, onde o primeiro laço percorre todo o arquivo lendo a linha com os dados e o segundo laço faz a separação das palavras da linha de dados, após executada esta ação é por fim feita a inserção dos dados em folhas de uma ABP (Árvore Binária de Pesquisa) tendo esta a complexidade O(N³) onde N é o número de folhas a serem inseridas e complexidade N³ dado o fato de ter que se verificar se a raíz é nula, verificar se a inserção vai ser feita a esquerda ou a direita (balanceamento da árvore) e por fim se será inserido na folha atual ou na folha anterior, justificando a alta complexidade com a presença de estruturas de controle `if-else`.
 2. Relatórios:
-> Para apresentar os relatórios é necessário que se façam as buscas dado a opção selecionada
-> para apresentação, logo se assemelha bastante ao exibir os demais relatórios, em casos de O(N) para
-> buscas mais simples, perto da raíz, e O(log N), onde o logaritmo é na base 2, para folhas mais longes da raíz.
+> Para apresentar os relatórios é necessário que se façam as buscas dado a opção selecionada para apresentação, logo se assemelha bastante ao exibir os demais relatórios, em casos de O(N) para buscas mais simples, perto da raíz, e O(log N), onde o logaritmo é na base 2, para folhas mais longes da raíz.
 3. Relatório de um estado:
-> Para apresentar o relatório de um estado é preciso buscar os dados nas folhas da árvore de forma
-> ordenada, ou seja, buscar as folhas mais a esquerda de cada raíz para então verificar as folhas a direita,
-> logo a complexidade nesta ação é, no melhor caso, de O(N) quando o estado desejado está nas folhas a esquerda,
-> e de O(log N), onde o logaritmo é na base 2, para quando for necessário deslocar-se para folhas filhas na árvore durante a busca.
+> Para apresentar o relatório de um estado é preciso buscar os dados nas folhas da árvore de forma ordenada, ou seja, buscar as folhas mais a esquerda de cada raíz para então verificar as folhas a direita, logo a complexidade nesta ação é, no melhor caso, de O(N) quando o estado desejado está nas folhas a esquerda, e de O(log N), onde o logaritmo é na base 2, para quando for necessário deslocar-se para folhas filhas na árvore durante a busca.
 4. Dados de um município específico:
-> Para apresentar os dados de um munícipio específico é necessário fazer uma busca
-> nas folhas da árvore binária, é percorrida com um laço de repetição enquando não
-> for nulo a folha, o melhor caso é quando o município está logo no início da árvore,
-> neste caso a complexidade é de O(N), o pior caso é quando o município está no final da árvore,
-> neste caso a complexidade é O(log N) onde o logaritmo é na base 2 (dado o fato de a árvore estar balenceada
-> e não ser uma árvore degenerada).
+> Para apresentar os dados de um munícipio específico é necessário fazer uma busca nas folhas da árvore binária, é percorrida com um laço de repetição enquando não for nulo a folha, o melhor caso é quando o município está logo no início da árvore, neste caso a complexidade é de O(N), o pior caso é quando o município está no final da árvore, neste caso a complexidade é O(log N) onde o logaritmo é na base 2 (dado o fato de a árvore estar balenceada e não ser uma árvore degenerada).
 5. Sair do sistema:
-> Para sair do sistema a única ação antes de terminar a execução com o comando `exit(0)`
-> é desalocar as árvores binárias com os dados,
-> e para desalocar é preciso percorrer a árvore nas suas N folhas, logo a complexidade para percorrer
-> as N folhas é O(N).
+> Para sair do sistema a única ação antes de terminar a execução com o comando `exit(0)` é desalocar as árvores binárias com os dados, e para desalocar é preciso percorrer a árvore nas suas N folhas, logo a complexidade para percorrer as N folhas é O(N).
 
 [//]: # (Essa seção abaixo após este comentário é para os possíveis links que existam no arquivo do Markdown para que possam funcionar de forma correta)
 
