@@ -1,7 +1,7 @@
 # Sistema de Consulta de cadastro do Conselho Federal de Odontologia (CFO) - Gerencial.
 ## Quantitativos sobre Profissionais e Entidades da área de odontologia no Brasil.
-#
-#
+
+
 ![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/language-C-blue.svg?style=flat-square)
 ***
